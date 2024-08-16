@@ -28,4 +28,14 @@ You can use **https://127.0.0.1:4200/** for viewing the web page.
 to the “.csproj” file, to generate an XML documentation from the code comments.
 12.	Adding “IncludeXmlComments” to the AddSwaggerGen function in the Programs.cs file
 
+### Frontend
+
+13.	Adding Bootstrap to the Angular Project.
+14.	Editing the default app component (app.component) to add the router-outlet.
+15.	Creating the home (select and delete), insert, and update components (CRUD operations).
+16.	Add the routes to the app-routing.module.ts
+17.	Edit home component to load the data from TvShow API on a CRUD table.
+18.	Edit insert component to show a form to insert data using the API POST method.
+19.	Edit update component to show a form with the select TV Show and with the capabilities to update the info.
+20.	Edit again the home component to add the delete functionality (before selecting the option the user is asked to confirm).
 
