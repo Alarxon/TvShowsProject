@@ -10,6 +10,8 @@ For the frontend, the only external dependence used was Bootstrap.
 
 You can use **https://127.0.0.1:4200/** for viewing the web page.
 
+![Swagger Screenshot1](swagger1.png)
+
 ## Activities Log
 ### Backend
 1.	Adding of Microsoft.EntityFrameworkCore.InMemory for InMemory database (Herramientas -> Administrador de paquetes NuGet -> Administrar paquetes NuGet para solucion -> Examinar -> Buscar “Microsoft.EntityFrameworkCore.InMemory” -> Seleccionar el Proyecto -> Instalar). 
