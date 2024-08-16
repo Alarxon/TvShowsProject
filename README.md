@@ -11,6 +11,7 @@ For the frontend, the only external dependence used was Bootstrap.
 You can use **https://127.0.0.1:4200/** for viewing the web page.
 
 ![Swagger Screenshot1](swagger1.png)
+![Angular Screenshot2](angular1.png)
 
 ## Activities Log
 ### Backend
