@@ -1,0 +1,6 @@
+@TvShowsProject.Server_HostAddress = http://localhost:5197
+
+GET {{TvShowsProject.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,36 @@
+<div class="p-5 bg-dark text-white rounded text-center">
+  <h1 id="tableLabel">TV Shows</h1>
+</div>
+<br />
+
+<p class="text-center">This is a simple CRUD for the Tv Shows .NET API.</p>
+
+<p *ngIf="!tvshows"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
+
+<div class="container">
+  <div class="d-flex justify-content-center mt-5">
+    <button (click)="goToInsert()" class="btn btn-primary btn-block">Add TV Show</button>
+  </div>
+</div>
+
+<div class="container mt-3 text-center">
+  <table class="table table-hover" *ngIf="tvshows">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Favorite</th>
+        <th colspan="2">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tvshow of tvshows">
+        <td>{{ tvshow.id }}</td>
+        <td>{{ tvshow.name }}</td>
+        <td>{{ tvshow.favorite }}</td>
+        <td><button (click)="goToUpdate(tvshow.id)" class="btn btn-success btn-block">Update</button></td>
+        <td><button (click)="goToDelete(tvshow.id)" class="btn btn-danger btn-block">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
